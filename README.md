@@ -118,4 +118,4 @@ The design is inspired by Michelangelo's *The Creation of Adam*. The hand artwor
 
 ## License
 
-[MIT](LICENSE) © 2026 gorkemblm.
+[MIT](LICENSE)
