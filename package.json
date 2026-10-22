@@ -1,0 +1,31 @@
+{
+  "name": "ascii-the-creation-of-adam",
+  "version": "1.0.0",
+  "description": "A dependency-free ASCII animation of a human hand reaching for a robotic hand.",
+  "type": "module",
+  "main": "./dist/ascii-creation.js",
+  "types": "./dist/ascii-creation.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/ascii-creation.d.ts",
+      "import": "./dist/ascii-creation.js",
+      "default": "./dist/ascii-creation.js"
+    }
+  },
+  "files": ["dist", "LICENSE", "README.md"],
+  "sideEffects": true,
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/serve.mjs",
+    "prepack": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gorkemblm/ascii-the-creation-of-adam.git"
+  },
+  "homepage": "https://github.com/gorkemblm/ascii-the-creation-of-adam#readme",
+  "bugs": "https://github.com/gorkemblm/ascii-the-creation-of-adam/issues",
+  "author": "gorkemblm",
+  "license": "MIT",
+  "keywords": ["ascii", "canvas", "animation", "web-component", "michelangelo", "generative-art"]
+}

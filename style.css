@@ -1,0 +1,35 @@
+:root {
+  color-scheme: dark;
+  font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+  background: #0b0c0c;
+  color: #e8e9e4;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; }
+
+main {
+  width: min(1440px, 100%);
+  min-height: 100svh;
+  margin-inline: auto;
+  padding: 32px 0;
+  display: grid;
+  align-content: center;
+  gap: 28px;
+}
+
+.density { display: flex; justify-content: center; gap: 4px; }
+.density button {
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 8px 18px;
+  font: inherit;
+  font-size: 11px;
+  color: #78816f;
+  background: transparent;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+.density button:hover { color: #d5e8b4; }
+.density button[aria-pressed="true"] { background: #21271b; color: #d5e8b4; }
+.density button:focus-visible { outline: 1px solid #d5e8b4; outline-offset: 4px; }
